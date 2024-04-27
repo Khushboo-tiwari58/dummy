@@ -16,7 +16,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
     
   </head>
   <body>
-    <?php require 'components/_nav.php'?>
+    <?php require '_nav.php'?>
     <h1 class="text-center">welcome - <?php echo $_SESSION['username'] ?></h1>
     <p>
     PHP stands for "Hypertext Preprocessor." It's a widely used open-source scripting language that is particularly suited for web development and can be embedded into HTML. PHP code is executed on the server, generating HTML that is then sent to the client's web browser. It's often used to create dynamic web pages, interact with databases, handle forms, manage sessions, and perform various other tasks related to web development. PHP is known for its simplicity, flexibility, and wide support across different web servers and operating systems.
